@@ -74,13 +74,42 @@ Para saber mais sobre essa nova capacidade confira [Criar máquinas virtuais em 
 
 <img width="442" height="156" alt="Go_to_resource1" src="https://github.com/user-attachments/assets/d6d3073b-c082-4cab-bfec-d21e251f6722" />
 
+<br>
+<br>
+<br>
+
+#### Conectar-se à máquina virtual
+
+Inicie uma conexão da área de trabalho remota para a máquina virtual. Estas instruções ensinam a se conectar aàsua VM de um computador com Windows. Em um Mac, você precisa de um cliente RDP, como este [Cliente de Área de Trabalho Remota](https://apps.apple.com/app/microsoft-remote-desktop/id1295203466?mt=12) da Mac App Store.
+<br>
+
+1- Selecione Conectar>RDP na página de visão geral de sua máquina virtual.
+<img width="749" height="181" alt="Conectar_RDP1" src="https://github.com/user-attachments/assets/68df5f8a-3fa0-492a-9c0a-3adad157037b" />
 
 
 
+2- Na guia Conectar-se ao RDP, mantenha as opções padrão para se conectar por endereço IP pela porta 3389 e clique em Baixar arquivo RDP.
 
 
+3- Abra o arquivo RDP baixado e clique em Conectar quando solicitado.
 
 
+4- Na janela Segurança do Windows, selecione Mais opções e Usar uma conta diferente. Digite o nome de usuário como localhost\nome de usuário, insira a senha que você criou para a máquina virtual e clique em OK.
+
+
+5- Você pode receber um aviso do certificado durante o processo de logon. Clique em Sim ou em Continuar para criar a conexão.
+
+<br>
+<br>
+
+#### Tabela com o SLA do Azure
+
+Os Contratos de Nível de Serviço (SLA) descrevem os compromissos da Microsoft com o tempo de atividade e a conectividade dos Serviços Online da Microsoft.
+
+<img width="1029" height="241" alt="Tabela_SLA_Azure1" src="https://github.com/user-attachments/assets/0163a413-1ecf-404f-a8e4-e496a8e8bce7" />
+
+<br>
+<br>
 
 
 
